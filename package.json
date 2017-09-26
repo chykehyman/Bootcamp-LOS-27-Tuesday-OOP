@@ -1,0 +1,19 @@
+{
+  "name": "oop",
+  "version": "1.0.0",
+  "description": "javascript oop concepts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chykehyman/Bootcamp-LOS-27-Tuesday-OOP.git"
+  },
+  "author": "Chinwoke Hyginus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chykehyman/Bootcamp-LOS-27-Tuesday-OOP/issues"
+  },
+  "homepage": "https://github.com/chykehyman/Bootcamp-LOS-27-Tuesday-OOP#readme"
+}
