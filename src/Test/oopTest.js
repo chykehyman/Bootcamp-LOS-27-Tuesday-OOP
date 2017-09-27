@@ -1,5 +1,5 @@
 /**
- *Unit test cases for aritGeo function
+ *Unit test cases for javascript OOP
  **/
 
 'use strict';
@@ -7,7 +7,7 @@
 import chai from 'chai';
 import { Profession, Soldier } from '../OOP/oop';
 const assert = chai.assert;
-git
+
 describe("OOP Test Cases", () => {
 
     describe("Create Profession Object Instance", () => {
