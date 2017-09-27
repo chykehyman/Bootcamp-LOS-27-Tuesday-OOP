@@ -1,6 +1,6 @@
 'use strict';
 
-export default class Profession {
+export class Profession {
     constructor(name) {
             this._name = name;
         }
@@ -15,7 +15,7 @@ export default class Profession {
 
 }
 
-export default class Soldier extends Profession {
+export class Soldier extends Profession {
     // if this class is initialised without parameters, the default parameters are used
     constructor(placeOfWork = 'Abuja', rank = 'Soldier', strength = "weak") {
         super(name);
