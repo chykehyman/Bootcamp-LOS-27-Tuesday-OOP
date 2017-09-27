@@ -1,25 +1,26 @@
 {
-  "name": "oop",
-  "version": "1.0.0",
-  "description": "javascript oop concepts",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/chykehyman/Bootcamp-LOS-27-Tuesday-OOP.git"
-  },
-  "author": "Chinwoke Hyginus",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/chykehyman/Bootcamp-LOS-27-Tuesday-OOP/issues"
-  },
-  "homepage": "https://github.com/chykehyman/Bootcamp-LOS-27-Tuesday-OOP#readme",
-  "dependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-es2015": "^6.24.1",
-    "chai": "^4.1.2",
-    "mocha": "^3.5.3"
-  }
+    "name": "oop",
+    "version": "1.0.0",
+    "description": "javascript oop concepts",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha ./dist/Test/oopTest.js",
+        "build": "babel ./src --watch -d ./dist"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/chykehyman/Bootcamp-LOS-27-Tuesday-OOP.git"
+    },
+    "author": "Chinwoke Hyginus",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/chykehyman/Bootcamp-LOS-27-Tuesday-OOP/issues"
+    },
+    "homepage": "https://github.com/chykehyman/Bootcamp-LOS-27-Tuesday-OOP#readme",
+    "dependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-preset-es2015": "^6.24.1",
+        "chai": "^4.1.2",
+        "mocha": "^3.5.3"
+    }
 }
